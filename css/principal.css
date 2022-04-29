@@ -1,0 +1,423 @@
+/* arriérre plant -----------------------------------------------------------------*/
+.saine {
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    background-image: url(../image/font.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.Item_modis .saine {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url(../image/font.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.Item_objet_modi {
+   background-color: black;
+}
+.Item_modis {
+    background-color: black;
+}
+/* top -----------------------------------------------------------------*/
+.carrétitre {
+   
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: #1f1d36f5;
+}
+.imgtitre {
+    position :absolute;
+    width: 150px;
+    height: 75px;
+    padding-top: 22px;
+    padding-left: 10px;
+}
+.carrénav{
+    position: absolute;
+    width: 500px;
+    padding-top: 20px;
+    right: 200px;
+    
+}
+
+@media (max-width: 1454px) {
+.carrénav{
+    right: 140px;
+}
+}
+@media (max-width: 970px) {
+.carrénav{
+    width: 170px;
+    right: 140px;
+}
+}
+@media (max-width: 500px) {
+    .carrénav{
+        width: 160px;
+        right: 30px;
+    }
+}
+
+/* bot ---------------------------------------------------------------*/
+
+.carrébot {
+width: 80%;
+height: 60px;
+margin-left: auto;
+margin-right: auto;
+background-color: #1F1D36;
+margin-bottom: 40px;
+}
+
+.incarrébot{
+    position: relative;
+    margin-left: 10%;
+    width: 80%;
+    height: 40px;
+    top: 10px;
+    text-align: center;
+}
+
+.abot {
+    position: absolute;
+    color: #E9A6A6;
+    text-decoration: none;
+}
+.abot:hover {
+    color: #864879;
+}
+
+.abot2 {
+    color: #E9A6A6;
+    text-decoration: none;
+    right:0; 
+    position:absolute;
+}
+.abot2:hover {
+    color: #864879;
+}
+
+.abot1 {
+    left:0; 
+    position:absolute;
+    color: #E9A6A6;
+    text-decoration: none;
+}
+.abot1:hover {
+    color: #864879;
+}
+@media(max-width: 770px){
+    .carrébot{
+        height: 100px;
+    }
+    .incarrébot {
+        height: 60px;
+    }
+    .abot1{
+        left:auto;
+        margin-left: -80px;
+    }
+    .abot{
+        padding-top: 20px;
+        margin-left: -48px;
+    }
+    .abot2{
+        padding-top: 40px;
+        margin-left: -42px;
+        right: auto;
+    }
+
+}
+
+/* commain ---------------------------------------------------------------*/
+
+
+.lien {
+    color: #E9A6A6;
+    text-decoration: none;
+}
+.lien:hover {
+    color: #864879;
+}
+
+strong {
+    color: #E9A6A6;
+}
+
+@font-face {
+    font-family: "Titregr";
+    src: url(../font/Aokigahara_personal_use.ttf);
+}
+.changementfont {
+    font-family: none;
+    color: #E9A6A6;
+    font-size: 60px;
+}
+/* Accueil ----------------------------------------------------------------*/
+
+.videoca {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.video {
+    border-radius: 10px;
+    width: 560px;
+    height: 315px;
+}
+@media (max-width:800px) {
+    .video {
+        width: 250px;
+        height: 150px;
+    }
+}
+.accueiltxt{
+    width: 80%;
+    padding-left: 20%;
+    padding-top: 80px;
+    text-align: center;
+    color: rgb(252, 240, 255);
+}
+.Accueil .contenant {
+    width: 80%;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3f3351b9;
+}
+
+@media (max-width:840px) {
+    .Accueil .contenant {
+        width: 80%;
+        height: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #3f3351b9;
+    } 
+}
+@media (max-width:600px) {
+    .Accueil .contenant {
+        width: 80%;
+        height: 1250px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #3f3351b9;
+    } 
+}
+
+/* Item / Item modis ----------------------------------------------------------------*/
+
+.Item .contenant {
+    width: 80%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3f3351b9;
+    
+}
+.Item_modis .contenant {
+    width: 80%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3f3351b9;
+}
+@media (max-width: 460px) {
+    .Item .contenant {
+        width: 80%;
+        height: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #3f3351b9;
+        
+    }
+}
+
+.titregr {
+    font-family: "Titregr";
+    color: #E9A6A6;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 90px;
+}
+.tableauitem{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.aitem {
+    color: #E9A6A6;
+    text-decoration: none;
+}
+.aitem:hover{
+    color: #864879;
+}
+/* Item_objet_normal/ entité_normal ----------------------------------------------------------------*/
+.entités_normal .contenant {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3f3351b9;
+}
+
+@media (max-width:635px) {
+    .entités_normal .contenant {
+        width: 80%;
+        height: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #3f3351b9;
+    }
+}
+.Item_objet_normal .contenant {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3f3351b9;
+    
+}
+
+.Item_objet_modi .contenant {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3f3351b9;
+    
+}
+
+.carrévide {
+    width: 100%;
+    height: 150px;
+}
+
+.carré_content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nom_de_objet {
+    color: #E9A6A6;
+    font-family: "Titregr";
+    padding-top: 90px;
+    font-size: 60px;
+}
+
+.objet_carré {
+    padding-top: 50px;
+    color:white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image_objet_normal {
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+}
+/* carte ------------------------------------------------------------------------------------*/
+
+.petitimg {
+    height: 50px;
+    width: 50px;
+}
+
+.image_carte{
+    height: auto;
+    max-width: 100%;
+}
+
+.legende {
+    text-align:center;
+    max-width: 100%;
+}
+@media(max-width:500px) {
+    .textlegende {
+        font-size: 10px;
+    }
+}
+
+/* conection ------------------------------------------------------------------------*/
+
+.carreconnecte {
+    padding-top: 150px;
+}
+.carrévideconnecte{
+    margin-top: 100px;
+    height: 100px;
+}
+/* compte ------------------------------------------------------------------------*/
+
+.liencompte {
+    font-size: 30px;
+    position: absolute;
+    color: #E9A6A6;
+    text-decoration: none;
+}
+.liencompte:hover {
+    font-size: 35px;
+    color: #864879;
+}
+
+.liencompte2 {
+    font-size: 30px;
+    position: absolute;
+    color: rgb(202, 0, 0);
+    text-decoration: none;
+}
+.liencompte2:hover {
+    font-size: 35px;
+    color: #864879;
+}
+
+/* commentaire ------------------------------------------------------------------------*/
+.partie_commentaire{
+height: auto;
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.textcommentaire {
+    color: white;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.commentaire {
+    background-color: #864879;
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.in_commentaire {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.videcommentarie {
+    height: 30px;
+    width: 100%;
+}
